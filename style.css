@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 3.5em;
+    margin: 16px 11px;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    margin: 16px 11px;
+    font-size: 3em;
+}
+
+h3 {
+    color: rgb(61, 35, 93);
+    text-align: center;
+    margin: 16px 11px;
+    font-size: 2em;
+}
+
+p {
+    font-size: medium;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: azure;
+    }
+}
+
+@media screen and (max-width:425px) {
+    body {
+        background-color: rgb(226, 136, 97);
+    }
+}
